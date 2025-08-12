@@ -23,7 +23,7 @@ public class Week8Task2 {
         try {
             nullPointerEx();
         } catch (NullPointerException e) {
-            return "Lỗi NullPointerException";
+            return "Lỗi Null Pointer";
         }
         return "Không có lỗi";
     }
@@ -45,7 +45,7 @@ public class Week8Task2 {
         try {
             arrayIndexOutOfBoundsEx();
         } catch (ArrayIndexOutOfBoundsException e) {
-            return "Lỗi ArrayIndexOutOfBoundsException";
+            return "Lỗi Array Index Out of Bounds";
         }
         return "Không có lỗi";
     }
@@ -66,7 +66,7 @@ public class Week8Task2 {
         try {
             arithmeticEx();
         } catch (ArithmeticException e) {
-            return "Lỗi ArithmeticException";
+            return "Lỗi Arithmetic";
         }
         return "Không có lỗi";
     }
@@ -89,7 +89,7 @@ public class Week8Task2 {
         try {
             fileNotFoundEx();
         } catch (FileNotFoundException e) {
-            return "Lỗi FileNotFoundException";
+            return "Lỗi File Not Found";
         }
         return "Không có lỗi";
     }
@@ -113,7 +113,7 @@ public class Week8Task2 {
         try {
             ioEx();
         } catch (IOException e) {
-            return "Lỗi IOException";
+            return "Lỗi IO";
         }
         return "Không có lỗi";
     }
