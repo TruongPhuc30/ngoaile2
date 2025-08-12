@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.FileReader;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 /**
  * Lớp Week8Task2 chứa các phương thức để gây ra và xử lý 5 loại ngoại lệ phổ biến trong Java.
